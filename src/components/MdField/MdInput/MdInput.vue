@@ -34,6 +34,9 @@
       isPassword () {
         return this.type === 'password'
       },
+      isNumber() {
+	return this.type === 'number'
+      },
       listeners () {
         var l = {...this.$listeners}
         delete l.input
